@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Luna Decor</title>
+
+<style>
+ body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #ffd6e8; 
+ }
+
+
+ header {
+   background: white;
+   padding: 15px 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ }
+
+ .logo {
+   font-size: 28px;
+   font-weight: bold;
+   color: #ff4fa3;
+ }
+
+ nav a {
+   margin-left: 20px;
+   text-decoration: none;
+   color: #333;
+   font-weight: 600;
+ }
+
+ nav a:hover {
+   color: #ff4fa3;
+ }
+
+ .hero {
+   text-align: left;
+   padding: 80px 40px;
+   font-size: 32px;
+   font-weight: bold;
+   color: #b4005a;
+   width: 60%;
+ }
+
+ .section-title {
+   text-align: center;
+   font-size: 32px;
+   margin-top: 40px;
+   color: #b4005a;
+   font-weight: bold;
+ }
+
+ .info-box {
+   width: 80%;
+   margin: 20px auto;
+   background: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+   font-size: 18px;
+ }
+
+ .product-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   gap: 20px;
+   overflow-x: auto;
+   padding-bottom: 10px;
+ }
+
+ .product-card {
+   min-width: 200px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   padding: 10px;
+   text-align: center;
+   background: #fff;
+   flex-shrink: 0;
+ }
+
+ .product-card img {
+   width: 200px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+ }
+
+ .product-title {
+   font-weight: bold;
+ }
+
+ .product-price {
+   margin-top: 8px;
+   font-weight: bold;
+   color: #b4005a;
+   font-size: 20px;
+ }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Luna Decor</div>
+
+  <nav>
+    <a href="#ana">Ana səhifə</a>
+    <a href="#elaqe">Əlaqə</a>
+    <a href="#unvan">Ünvan</a>
+    <a href="#haqqimizda">Haqqımızda</a>
+    <a href="#reyler">Rəylər</a>
+    <a href="#yenikolleksiya">Yeni kolleksiya</a>
+  </nav>
+</header>
+
+<section id="ana" class="hero">
+  <br>
+  <strong>Evinizi bizimlə daha göz oxşayan edin ✨</strong>
+</section>
+
+<h2 class="section-title">Luna Deco — Estetik məkanların səsi</h2>
+
+<div class="info-box" id="haqqimizda">
+  <h3>Haqqımızda</h3>
+  <p>
+    Luna Decor evinizə zəriflik, estetika və rahatlıq gətirən xüsusi dekor məhsulları təqdim edir...
+  </p>
+</div>
+
+<div class="info-box" id="elaqe">
+  <h3>Əlaqə</h3>
+  <p>Bizimlə əlaqə: 055 000 00 00 <br>012 650 00 00</p>
+</div>
+
+<div class="info-box" id="unvan">
+  <h3>Ünvan</h3>
+  <p>Bakı, Nərimanov — Luna Decor mağazası</p>
+</div>
+
+<div class="info-box" id="reyler">
+  <h3>Bizə gələn rəylər</h3>
+  <p>⭐⭐⭐⭐⭐ — "Məhsullar çox keyfiyyətli və gözəldir!"</p>
+</div>
+
+<div class="info-box" id="yenikolleksiya">
+  <h3 style="color: #ff4fa3;">Yeni kolleksiya</h3>
+  <p>“Harmoniya” kolleksiyası ilə evinizə yeni nəfəs gətirin...</p>
+</div>
+
+
+<h2 class="section-title">Məhsullar</h2>
+
+<div class="product-container">
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/54/72/63/547263f6a81ea880d6aa49bad2158db6.jpg">
+        <div class="product-title">Divar saatı</div>
+        <div class="product-price">50 AZN</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/92/98/29/929829908b429b20d44f0c8dec8899fb.jpg">
+        <div class="product-title">Şamdan</div>
+        <div class="product-price">25 AZN</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/72/ce/9c/72ce9cc624e7bf0066187e50050cc2ca.jpg">
+        <div class="product-title">3D tablo</div>
+        <div class="product-price">300 AZN</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/736x/1b/3a/78/1b3a781492ccfcb752e4c808508fec8f.jpg">
+        <div class="product-title">Şam</div>
+        <div class="product-price">15 AZN</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/bd/72/16/bd72166179f98cf8153b53de8b1e14cc.jpg">
+        <div class="product-title">Qızılı heykəl</div>
+        <div class="product-price">45 AZN</div>
+    </div>
+
+    <div class="product-card">
+        <img src="https://i.pinimg.com/1200x/71/93/69/719369cd8441ea8c5388bb598c39e77b.jpg">
+        <div class="product-title">Divar lampası</div>
+        <div class="product-price">60 AZN</div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
